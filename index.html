@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>반려동물 하루 기록</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <h1>🐾 반려동물 하루 일기</h1>
+  </header>
+
+  <main>
+    <!-- 사진 삽입 및 기록 작성 -->
+    <section id="entry-section">
+      <h2>오늘의 기록 작성</h2>
+      <input type="file" id="photo-input" accept="image/*">
+      <textarea id="story-input" placeholder="오늘 있었던 작은 에피소드를 적어주세요..."></textarea>
+      <button id="save-btn">기록 저장하기</button>
+    </section>
+
+    <!-- 기록 확인 -->
+    <section id="records-section">
+      <h2>📖 지난 기록</h2>
+      <div id="records-list"></div>
+    </section>
+  </main>
+
+  <footer>
+    <p>© 2026 반려동물 하루 일기</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
